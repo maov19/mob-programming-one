@@ -2,8 +2,7 @@
 // and turn everything into the same case (lower or upper case) in order to check for **anagrams**. - DONE
 //order both words alphabetically- DONE
 //check if they are ===
-module.exports = 
-function anagramFinder(strOne, strTwo) {
+module.exports = function anagramFinder(strOne, strTwo) {
   // write your code here
   strOne = strOne.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("")
   strTwo = strTwo.replace(/[^\w]/g, "").toLowerCase().split("").sort().join("")
@@ -15,9 +14,6 @@ function anagramFinder(strOne, strTwo) {
   }
 }
 
-let result = anagramFinder("friend", "finder");
-console.log(result); //true
 
-definr === definr
 
 
